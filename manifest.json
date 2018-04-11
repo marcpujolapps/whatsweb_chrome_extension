@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Envia Whatsapps",
-  "description": "Envia missatges de Whatsapp",
+  "name": "New Whatsapp Web conversations",
+  "description": "Simply fill the form with phone number and message and start messaging.",
   "version": "1.0",
   "web_accessible_resources" : ["/main.js"],
   "content_scripts": [{
@@ -13,9 +13,12 @@
   "permissions":[
         "activeTab"
     ],
+  "icons": {
+    "128": "img.png"
+  },
   "page_action": {
     "default_icon": "img.png",
     "default_popup": "popup.html",
-    "default_title": "Envia missatges de Whatsapp"
+    "default_title": "New Whatsapp Web conversations"
   }
 }
